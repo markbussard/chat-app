@@ -10,11 +10,30 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@chat-app/shared-types": [
+        "libs/shared-types/src/index.ts"
+      ],
+      "@client/*": [
+        "apps/client/src/*"
+      ],
+      "public/*": [
+        "apps/client/public/*"
+      ],
+      "@server/*": [
+        "apps/server/src/*"
+      ]
+    }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
