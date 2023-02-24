@@ -1,8 +1,11 @@
 {
   "recommendations": [
-    "nrwl.angular-console",
+    "Box-Of-Hats.bemhelper",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "firsttris.vscode-jest-runner",
-    "dbaeumer.vscode-eslint"
+    "mgmcdermott.vscode-language-babel"
   ]
 }
